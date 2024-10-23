@@ -94,6 +94,18 @@ a {
     }
 }
 
-.info {
+.info__item {
     text-align: center;
+    margin-bottom: 3rem;
+}
+
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .info {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+    }
 }
