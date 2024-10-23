@@ -3,6 +3,7 @@
 :root {
     --color-body: #A5A5A5;
     --color-headings: #F0F0F0;
+    --color-buttons: #2A2A2A;
 }
 
 *, *::before, *::after {
@@ -59,5 +60,28 @@ a {
     }
     h2 {
         font-size: 4rem;
+    }
+}
+
+.btn {
+    display: inline-block;
+    background: var(--color-buttons);
+    border: 0;
+    color: var(--color-headings);
+    font-weight: 600;
+    padding: 2rem 2.5rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    outline: 0;
+    margin: 1rem 0;
+    cursor: pointer;
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .btn {
+        font-size: 1.5rem;
     }
 }
