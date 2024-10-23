@@ -1,0 +1,63 @@
+@import './normalize.css';
+
+:root {
+    --color-body: #A5A5A5;
+    --color-headings: #F0F0F0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #E6E6E6;
+    color: #000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+    color: var(--color-body);
+    font-size: 2.2rem;
+    line-height: 1.5;
+    background: #000;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--color-headings);
+    margin-bottom: 1.1rem;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.8rem;
+    }
+    h1 {
+        font-size: 10rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+}
