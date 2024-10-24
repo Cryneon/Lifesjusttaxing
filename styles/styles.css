@@ -190,3 +190,15 @@ a {
         font-size: 1.8rem;
     }
 }
+
+.promotion {
+    padding: 1rem;
+    top: 0;
+}
+
+.promotion__text {
+    color: var(--color-headings);
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 0;
+}
