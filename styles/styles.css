@@ -146,3 +146,47 @@ a {
         font-size: 1.4rem;
     }
 }
+
+.nav {
+    display: flex;
+    gap: min(1rem);
+    background: #000;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__brand {
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-left: 2rem;
+    color: var(--color-headings);
+    font-size: 1.6rem;
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    padding: 0;
+}
+
+.nav__item {
+    list-style: none;
+    padding-right: 1.7rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    transition: color .2s;
+}
+
+.nav__item:hover {
+    color: var(--color-headings);
+}
+
+@media screen and (min-width: 768px) {
+    .nav__brand {
+        font-size: 2.5rem;
+    }
+    .nav__item {
+        padding-right: 2.5rem;
+        font-size: 1.8rem;
+    }
+}
