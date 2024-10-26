@@ -119,6 +119,10 @@ a {
     }
 }
 
+.info {
+    padding: 0;
+}
+
 .info__item {
     text-align: center;
     margin-bottom: 3rem;
@@ -245,6 +249,14 @@ a {
     margin: 0;
 }
 
+.list {
+    margin-top: 3rem;
+}
+
 .list__item {
     margin-bottom: 1.5rem;
+}
+
+.lists {
+    margin-bottom: 5rem;
 }
