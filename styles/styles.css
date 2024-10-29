@@ -91,6 +91,10 @@ a {
     text-align: center;
 }
 
+.block__heading {
+    padding-top: 3rem;
+}
+
 .btn {
     background: var(--color-buttons);
     border: 0;
