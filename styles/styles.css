@@ -261,6 +261,21 @@ a {
     margin-bottom: 1.5rem;
 }
 
+.list__item--unticked {
+    list-style: none;
+}
+
 .lists {
     margin-bottom: 5rem;
+}
+
+.associates .list__item {
+    list-style: none;
+    justify-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .associates .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
