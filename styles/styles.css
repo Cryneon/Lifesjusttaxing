@@ -257,12 +257,13 @@ a {
     margin-top: 3rem;
 }
 
-.list__item {
-    margin-bottom: 1.5rem;
+.list--unticked {
+    list-style: none;
+    padding: 0;
 }
 
-.list__item--unticked {
-    list-style: none;
+.list__item {
+    margin-bottom: 1.5rem;
 }
 
 .lists {
@@ -270,7 +271,6 @@ a {
 }
 
 .associates .list__item {
-    list-style: none;
     justify-self: center;
 }
 
