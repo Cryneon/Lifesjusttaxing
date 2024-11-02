@@ -270,12 +270,12 @@ a {
     margin-bottom: 5rem;
 }
 
-.associates .list__item {
+.ordered .list__item {
     justify-self: center;
 }
 
 @media screen and (min-width: 1024px) {
-    .associates .grid {
+    .ordered .grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
